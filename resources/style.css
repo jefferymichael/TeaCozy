@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  padding-top: 0;
+}
+nav {
+  display: block; 
+  text-align: right;
+  flex-grow: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav span {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  text-decoration-style: none;
+}
