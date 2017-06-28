@@ -8,6 +8,17 @@ header {
   align-items: center;
   padding-top: 0;
 }
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1, h2, h4, h5 {
+  margin-top: 10px;
+  font-family: "Helvetica", sans-serif;
+}
+
 nav {
   display: block; 
   text-align: right;
@@ -29,7 +40,107 @@ nav span {
   display: inline-block;
   padding-right: 20px;
   font-size: 22px;
-  font-family: Helvetica;
   color: seashell;
   text-decoration-style: none;
 }
+
+#mission {
+  width: 100%;
+  height: 700px;
+  background-image: url(/Users/jeffborota/Documents/DevProjects/TeaCozy/resources/photos/background.jpg);
+  padding-top: 70px;
+  
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.content h2 {
+  display: block;
+  padding: 10px;
+  margin: 0;
+  color: seashell;
+  background-color: black;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content h4 {
+  margin: 0;
+  padding: 10px;
+  color: seashell;
+  background-color: black;
+  font-size: 1.33em;
+  text-align: center;
+}
+
+.media-card img {
+  width: 299px;
+}
+
+.media-card {
+  padding: 15px;
+}
+
+.store-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.store-section {
+  color: seashell;
+  background-color: black;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.media-card li {
+  list-style-type: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+
+.media-card ul {
+  padding: 0;
+}
+
+.media-card ul li:first-child {
+  font-weight: bold;
+  
+}
+
+#location-section {
+  height: 500px;
+  background-image: url("/Users/jeffborota/Documents/DevProjects/TeaCozy/resources/photos/coffeecup.jpg");
+}
+
+#location-section .media-card {
+  background-color: black;
+  margin: 20px;
+  padding: 5px;
+  width: 320px;
+}
+
+.footer-container {
+  padding-top: 10px;
+  background-color: black;
+  height: 200px;
+  text-align: center;
+  color: seashell;
+}
+
+.footer-container p {
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+
+
